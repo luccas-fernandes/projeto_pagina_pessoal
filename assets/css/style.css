@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+body.modo-escuro{
+    background-color: black;
+    color: white;
+    
+
+}
+
+body.modo-escuro #redes-sociais-icones{
+    filter: invert(100%);
+}
+
+body.modo-escuro .link-social{
+    color: white;
+}
+
+
+header{
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+}
+
+header .image-button{
+    width: 30px;
+    transition: 0.2s ease-in-out;
+    border: none;
+   
+}
+
+header #change-theme-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .image-button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.container{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 1100px;
+    max-width: 2200px;
+    min-height: 600px;
+    padding: 24px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.0);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(139, 128, 249, 0.6);
+    border-radius: 10px;
+  
+}
+
+.imagem-perfil{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin-left: 62.5px;
+    margin-bottom: 10px;
+}
+
+.area1{
+    display: flex;
+    
+    
+}
+
+.area1-foto{
+    flex-direction: column;
+    border-right:1px solid rgba(139, 128, 249, 0.6);
+    height: 560px;
+    padding-right: 24px;
+    max-width: 400px;
+    justify-content: center;
+   
+}
+
+.informacoes-pessoais{
+    font-size: 22px;
+    margin-left: auto;
+    text-align: center;
+    
+
+   
+}
+
+#luccas{
+    font-size: 28px;
+    text-shadow: 2px 2px 3px rgba(139, 128, 249, 0.6);
+
+}
+
+.redes-sociais {
+    max-width: 400px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes-sociais-titulo {
+    width: 100%;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid rgba(139, 128, 249, 0.6);
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    background-color: rgba(139, 128, 249, 0.6);
+}
+
+.redes-sociais-itens {
+    width: 100%;
+    border: 1px solid rgba(139, 128, 249, 0.6);
+    margin-top: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+.link-social {
+    font-size: 16px;
+    margin-left: 10px; /* Espaço entre a imagem e o texto */
+    color: black; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+#redes-sociais-icones {
+    width: 30px;
+    height: 30px;
+}
+
+.sobre-mim-area{
+    width: 652px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.sobre-mim-area-titulo{
+    display: flex;
+    justify-content: center;
+}
+.sobre-mim-titulo{
+    font-size: 32px;
+    
+    
+}
+#sobre-mim-borda{
+    border-bottom: 2px solid rgba(139, 128, 249, 0.6);
+}
+.sobre-mim-texto{
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: justify;
+  margin-bottom: 35px;
+  font-size: 18px;
+
+}
+
+.tecnologias-areas{
+    display: flex;
+    justify-content: center;
+}
+
+.tecnologias-icones{
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    margin-top: 10px;
+}
