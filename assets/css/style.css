@@ -24,6 +24,10 @@ body.modo-escuro .link-social{
     color: white;
 }
 
+body.modo-escuro .footer {
+    background-color: #333; /* Altera a cor de fundo do footer no modo escuro */
+    color: #fff; /* Altera a cor do texto do footer no modo escuro */
+}
 
 header{
 
@@ -32,22 +36,23 @@ header{
     padding: 25px;
 }
 
-header .image-button{
+header .image-button, .imagem-L{
     width: 30px;
     transition: 0.2s ease-in-out;
     border: none;
    
 }
 
-header #change-theme-button{
+header #change-theme-button {
     background: none;
     border: none;
     cursor: pointer;
 }
 
-header .image-button:hover{
+header .image-button:hover, .imagem-L:hover{
     transform: scale(1.05);
     cursor: pointer;
+
 }
 
 .container{
@@ -192,4 +197,51 @@ header .image-button:hover{
     height: 90px;
     padding: 20px;
     margin-top: 10px;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: white; 
+    padding: 20px; 
+    text-align: center; 
+    border-top: 1px solid rgba(139, 128, 249, 0.6);
+    display: flex;
+    justify-content: space-between; /* Esta linha alinha os itens do footer separadamente */
+  
+}
+
+.footer-itens {
+    display: flex;
+    align-items: center;
+    margin: auto; 
+    gap: 800px;
+}
+
+.footer-item1{
+    display: flex;
+}
+
+.texto-footer{
+    align-items: center;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+
+.imagem-copy{
+    width: 30px;
+    height: 30px;
+}
+
+footer #botao-footer{
+    background: none;
+    border: none;
+    cursor: pointer;
+} 
+.imagem-L{
+    width: 35px;
+    height: 35px;
 }
