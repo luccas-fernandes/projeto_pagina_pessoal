@@ -30,6 +30,10 @@ body.modo-escuro .footer {
 
 }
 
+body.modo-escuro .imagem-footer{
+    filter: invert(100%);
+}
+
 header{
 
     display: flex;
@@ -232,9 +236,9 @@ header .image-button:hover, .imagem-L:hover{
 }
 
 
-.imagem-copy{
-    width: 30px;
-    height: 30px;
+.imagem-footer{
+    width: 32px;
+    height: 32px;
 }
 
 footer #botao-footer{
@@ -242,7 +246,3 @@ footer #botao-footer{
     border: none;
     cursor: pointer;
 } 
-.imagem-L{
-    width: 35px;
-    height: 35px;
-}
