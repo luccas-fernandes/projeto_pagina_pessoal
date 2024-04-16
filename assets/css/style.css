@@ -128,10 +128,11 @@ header .image-button:hover, .imagem-footer:hover{
 #redes-sociais-titulo {
     width: 100%;
     padding: 2px 5px 2px 5px;
-    border: 1px solid rgba(139, 128, 249, 0.6);
+    border: 2px solid rgba(139, 128, 249, 0.6);
     color: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     background-color: rgba(139, 128, 249, 0.6);
+    
 }
 
 .redes-sociais-itens {
@@ -156,11 +157,20 @@ header .image-button:hover, .imagem-footer:hover{
     margin-left: 10px; /* Espaço entre a imagem e o texto */
     color: black; /* Cor do texto */
     text-decoration: none; /* Remove o sublinhado do link */
+    
+}
+
+.link-social:hover{
+    transform: scale(1.05);
 }
 
 #redes-sociais-icones {
     width: 30px;
     height: 30px;
+}
+
+#redes-sociais-icones:hover{
+    transform: scale(1.05);
 }
 
 .sobre-mim-area{
