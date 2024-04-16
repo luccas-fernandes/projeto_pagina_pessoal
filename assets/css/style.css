@@ -41,7 +41,7 @@ header{
     padding: 25px;
 }
 
-header .image-button, .imagem-L{
+header .image-button, .imagem-footer{
     width: 30px;
     transition: 0.2s ease-in-out;
     border: none;
@@ -54,7 +54,7 @@ header #change-theme-button {
     cursor: pointer;
 }
 
-header .image-button:hover, .imagem-L:hover{
+header .image-button:hover, .imagem-footer:hover{
     transform: scale(1.05);
     cursor: pointer;
 
@@ -202,6 +202,10 @@ header .image-button:hover, .imagem-L:hover{
     height: 90px;
     padding: 20px;
     margin-top: 10px;
+}
+
+.tecnologias-icones:hover{
+    transform: scale(1.10);
 }
 
 .footer {
