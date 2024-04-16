@@ -25,7 +25,7 @@ body.modo-escuro .link-social{
 }
 
 body.modo-escuro .footer {
-    background-color: #000; /* Altera a cor de fundo do footer no modo escuro */
+    background-color: black; /* Altera a cor de fundo do footer no modo escuro */
     color: #fff; /* Altera a cor do texto do footer no modo escuro */
 
 }
